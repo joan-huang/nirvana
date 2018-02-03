@@ -79,10 +79,10 @@ Java_com_yy_pillar_ffmpeg_FFmpegNative_avcodecinfo
 }
 
 JNIEXPORT jint JNICALL
-Java_com_yy_pillar_ffmpeg_FFmpegNative_executeCmd__ILjava_lang_String_3_093_2(JNIEnv *env,
-                                                                              jclass type,
-                                                                              jint cmdNum,
-                                                                              jobjectArray cmd) {
+Java_com_yy_pillar_ffmpeg_FFmpegNative_executeCmd(JNIEnv *env,
+                                                  jclass type,
+                                                  jint cmdNum,
+                                                  jobjectArray cmd) {
     // TODO
     char **argv = NULL;
     jstring *str = NULL;

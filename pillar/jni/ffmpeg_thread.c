@@ -17,6 +17,8 @@ static void (*ffmpeg_callback)(int ret);
  */
 void *thread(void *arg){
     int result = ffmpeg_exec(num, argvs);
+    //回调java方法传递result
+//    ffmpeg_callback(result);
     return ((void *)0);
 }
 /**

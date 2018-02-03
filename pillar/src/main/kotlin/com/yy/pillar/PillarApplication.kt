@@ -15,7 +15,7 @@ open class PillarApplication : Application() {
             return mApp
         }
 
-        lateinit private var mApp : Application
+        private lateinit var mApp : Application
     }
 
     override fun onCreate() {
